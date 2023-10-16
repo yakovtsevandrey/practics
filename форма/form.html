@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма Бондаров</title>
+    <link rel="stylesheet" href="form_style.css">
+</head>
+<body>
+<form action="#">
+    <h3>Регистрация</h3>
+    <div>
+        <label for="name">Имя</label>
+        <input name="name" type="text" id="name" placeholder="Иван">
+    </div>
+    <div>
+        <label for="familyname">Фамилия</label>
+        <input name="familyname" type="text" id="familyname" placeholder="Иванов">
+    </div>
+    <div>
+        <label for="email">Почта</label>
+        <input name="email" type="email" id="email" placeholder="example@tstu.ru">
+    </div>
+    <div>
+        <label for="male">Мужской</label>
+        <input type="radio" name="gender" id="male" value="male">
+
+        <label for="female">Женский</label>
+        <input type="radio" name="gender" id="female" value="female">
+    </div>
+    <div>
+        <label for="birchday">Дата рождения</label>
+        <input name="birchday" type="datetime-local" id="birchday">
+    </div>
+    <div>
+        <textarea name="about" placeholder="О себе"></textarea>
+    </div>
+    <div class="checkboxes">
+        <h3>Тип профиля</h3>
+        <p>
+            <label for="mypage">Личная страница</label>
+            <input type="checkbox" name="profile_type" id="mypage" value="mypage">
+        </p>
+        <p>
+            <label for="company">Компания</label>
+            <input type="checkbox" name="profile_type" id="company" value="company">
+        </p>
+        <p>
+            <label for="other">Другой вариант</label>
+            <input type="checkbox" name="profile_type" id="other" value="other">
+        </p>
+    </div>
+    <div>
+        <button type="submit">Отправить</button>
+    </div>
+</form>
+</body>
+</html>

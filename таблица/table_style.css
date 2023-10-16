@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    min-width: 500px;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+caption {
+    font-size: 18px;
+    text-align: left;
+}
+
+th {
+    background-color: #c0c1bb;
+    border: 1px solid black;
+}
+
+
+td, th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+td:first-child {
+    width: 50px;
+}
